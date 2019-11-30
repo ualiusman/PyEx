@@ -13,7 +13,7 @@ def validation_input(help_text="Enter 4 digits: "):
         try:
             user_text = input(help_text)
             if user_text == "0000":
-                break;
+                break
             user_input = int(user_text)
             
             if uniqueCharacters(user_text) == False :
