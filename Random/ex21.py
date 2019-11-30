@@ -16,7 +16,7 @@ def retrive_text():
 
 def write_to_file(text,file_name):
   with open( file_name+'.txt', 'w') as open_file:
-    open_file.write('A string to write')
+    open_file.write(text)
 
 if __name__ == "__main__":
     file_name = input("enter file name:")
